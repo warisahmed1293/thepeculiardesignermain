@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Recoleta';
+    src: local('Recoleta Alt Regular'), local('Recoleta-Alt-Regular'),
+        url('RecoletaAlt-Regular.woff2') format('woff2'),
+        url('RecoletaAlt-Regular.woff') format('woff'),
+        url('RecoletaAlt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
