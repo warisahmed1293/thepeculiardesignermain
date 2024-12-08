@@ -51,6 +51,18 @@ Developer:	Nazar Miller (millerDigitalDesign), email: miller.themes@gmail.com
     - load more
 
 --------------------------------------------*/
+@font-face {
+  font-family: 'MyCustomFont';  /* You can name this whatever you want */
+  src: url('/fonts/webfonts/RecoletaAltBold.otf') format('otf');
+  font-weight: bold;  /* Adjust if necessary */
+  font-style: normal;   /* Adjust if necessary */
+}
+@font-face {
+  font-family: 'MyCustomFont2';  /* You can name this whatever you want */
+  src: url('/fonts/webfonts/RecoletaAlt-Regular.woff') format('woff');
+  font-weight: normal;  /* Adjust if necessary */
+  font-style: normal;   /* Adjust if necessary */
+}
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
 /* -------------------------------------------
 
@@ -69,7 +81,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Sora", sans-serif;
+  font-family: "MyCustomFont","MyCustomFont2";
   font-size: 15px;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.7);
@@ -129,7 +141,7 @@ h5,
 .mil-h5,
 h6,
 .mil-h6 {
-  font-family: "Sora", sans-serif;
+  font-family: "myCustomFont2";
   color: rgb(0, 0, 0);
   font-weight: 700;
   line-height: 120%;
@@ -251,7 +263,7 @@ h6,
 }
 
 .mil-font-2 {
-  font-family: "Caveat", cursive;
+  font-family: "MyCustomFont";
 }
 
 .mil-shortened {
@@ -286,7 +298,7 @@ blockquote .mil-quote-text {
   border-left: solid 5px rgba(0, 0, 0, 0.05);
   border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, rgba(0, 0, 0, 0.05) 1px, rgba(0, 0, 0, 0.05) 3px) 5;
   width: calc(100% - 80px);
-  font-family: "Caveat", cursive;
+  font-family: "MyCustomFont";
   font-size: 30px;
   color: rgb(0, 0, 0);
 }
@@ -305,7 +317,7 @@ a {
 }
 
 .mil-accent {
-  color: #4d0606;
+  color: #ffffff;
 }
 
 .mil-light {
@@ -359,7 +371,7 @@ suptitle
 
 ------------------------------------------- */
 .mil-suptitle {
-  font-family: "Sora", sans-serif;
+  font-family: "MyCustomFont";
   display: inline-block;
   position: relative;
   padding-bottom: 10px;
@@ -1785,7 +1797,7 @@ footer .mil-bg-img {
   margin-right: 0;
 }
 .mil-footer-navigation nav ul li a {
-  font-family: "Sora", sans-serif;
+  font-family: "MyCustomFont";
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
@@ -1930,7 +1942,7 @@ top panel
   list-style-type: none;
 }
 .mil-navigation nav ul li a {
-  font-family: "Sora", sans-serif;
+  font-family: "MyCustomFont", ;
   text-decoration: none;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
@@ -2269,7 +2281,7 @@ inputs
 .mil-input-frame label {
   color: rgb(0, 0, 0);
   display: block;
-  font-family: "Sora", sans-serif;
+  font-family: "MyCustomFont", ;
   font-weight: 600;
 }
 .mil-input-frame label span {
@@ -2281,7 +2293,7 @@ inputs
 .mil-input-frame input {
   width: 100%;
   height: 70px;
-  font-family: "Sora", sans-serif;
+  font-family: "MyCustomFont";
   color: rgb(255, 255, 255);
   font-size: 15px;
   font-weight: 400;
